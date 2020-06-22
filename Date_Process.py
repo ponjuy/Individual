@@ -154,7 +154,6 @@ def nye_counts(start, end):
 
     d = {} # create an empty dictionary
 
-    # add your code here
     for year in range (start, end+1):
         date = Date(12,31, year)
         day = date.day_name()
